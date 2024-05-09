@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h3>
@@ -24,7 +25,6 @@
     <h5> D.O.B</h5>
     <label for="Date">Select date:</label>
     <select name="date" id="Date">
-        <option value="0">00</option>
         <option value="1">01</option>
         <option value="2">02</option>
         <option value="3">03</option>
@@ -57,7 +57,6 @@
         <option value="31">31</option>
     </select>
     <select name="Month" id="Month">
-        <option value="0">00</option>
         <option value="jan">jan</option>
         <option value="feb">feb</option>
         <option value="mar">mar</option>
@@ -72,7 +71,6 @@
         <option value="dec">dec</option>
     </select>
     <select name="Year" id="year">
-        <option value="0">00</option>
         <option value="1990">1990</option>
         <option value="1991">1991</option>
         <option value="1992">1992</option>
@@ -134,7 +132,20 @@
     </label>
     <br></br>
     <textarea name="feedback" id="101" rows="5" placeholder="your feedback"></textarea>
-
+    <br>
+    <h5>select your city</h5>
+    <select name="city">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Bihar">Bihar</option>
+        <option value="jaipur">jaipur</option>
+        <option value="kolkata">Kolkata</option>
+        <option value="hydrabad">Hydrabad</option>
+        <option value="banglore">banglore</option>
+    </select>
+    <br>
+    <br>
+    <input value="submit" type="submit"></input>
 </form>
 </body>
 </html>
