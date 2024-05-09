@@ -3,9 +3,20 @@ h3 {
 }
 
 .text-color {
-    height: 100px;
-    width: 100px;
+
     color: red;
     background-color: blue;
+}
+.box{
+    background-color: purple;
+}
+button{
+    color:green;
+}
+.header-right{
+    text-align : right;
+}
+pre{
+    text-align : right;
 }
 
