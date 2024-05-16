@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("./AmazonImages/amazon_logo.png");
+    height: 40px;
+    width: 100%;
+    background-size: cover; 
+}
+
+.border{
+    border: 1.5px transparent;
+}
+
+.border:hover{
+    border:1.5px solid white
+}
+
+.nav-address{
+    height: 45px;
+    width: 100px;
+}
+
+/** Box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+    
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.search-item-list{
+    height: 35;
+    width: 200;
+}
+
+/** Box3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.nav-search:hover{
+    border:2px solid rgb(255, 191, 0)
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e8e5e5;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-select:hover{
+    background-color:rgb(193, 190, 190) ;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(255, 170, 0, 0.9);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.3rem;
+}
+.search-icon:hover{
+    background-color: rgb(255, 162, 0);
+}
+
+/** Box4 **/
+/* .language-img{
+    background-image: url("./AmazonImages/Flag-India.jpg");
+    width: 10px;
+} */
+.lang-En{
+    background-color: black;
+    color: white;
+    font: bold;
+}
+
+/**Box5 **/
+span{
+    font-size: 0.7rem;
+}
+.nav-Bottom{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**Box6**/
+/**Box7**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**pannel**/
+.pannel{
+    background-color: #0f1111;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.85rem;    
+}
+
+.pannel-options{
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pannel-options a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.pannel-All{
+    font-weight: 700;
+    margin-left: 14px;
+}
+
+.pannel-All i{
+    font-size: 17px;
+    
+}
+
+/**Hero section**/
+.hero-section{
+    background-image: url("./AmazonImages/hero_image.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* .height60{
+    height: 40px;
+    width: auto;
+} */
+
+.panel-box{
+    height: 40px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* boxes */
+.box{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: brown;
+    height: 500px;
+    width: 1655px;
+}
+.box-1st{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    
+    
+    
+}
+.box1-heading{
+    display: flex;
+    justify-content: center;
+}
+.box-2nd{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(44, 100, 169);
+    margin-left: 80px;
+    
+}
+.box-3rd{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 67, 149);
+    margin-left: 80px;
+    
+} 
+/* 1st top box list */
+.top-box-list-1st{
+    background-color: white;
+    margin-top: 20px;
+    margin: 20px 20px 20px 20px;
+    height: 400px;
+    width: 457px;
+}
+/* .box1{
+    background-image: url("./AmazonImages/box1_image.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+} */
+/* .box2{
+    background-image: url("./AmazonImages/box2_image.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
